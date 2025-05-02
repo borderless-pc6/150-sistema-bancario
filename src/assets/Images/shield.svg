@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <path d="M90,20c-38.7,0-70,31.3-70,70s31.3,70,70,70s70-31.3,70-70S128.7,20,90,20z" fill="#E6F0FF"/>
+  <path d="M90,40c-27.6,0-50,22.4-50,50s22.4,50,50,50s50-22.4,50-50S117.6,40,90,40z M90,120c-16.5,0-30-13.5-30-30 s13.5-30,30-30s30,13.5,30,30S106.5,120,90,120z" fill="#0052CC" stroke="#0052CC" stroke-width="2"/>
+  <path d="M90,70c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S101,70,90,70z M95,95h-10V85h10V95z" fill="#0052CC"/>
+  <text x="90" y="95" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0052CC">$</text>
+</svg>

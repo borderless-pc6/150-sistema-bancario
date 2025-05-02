@@ -1,0 +1,6 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M60 10L100 30V60C100 82.09 82.09 100 60 100C37.91 100 20 82.09 20 60V30L60 10Z" fill="#0033CC" fill-opacity="0.1" stroke="#0033CC" stroke-width="4"/>
+  <path d="M60 30C71.0457 30 80 38.9543 80 50V60C80 71.0457 71.0457 80 60 80C48.9543 80 40 71.0457 40 60V50C40 38.9543 48.9543 30 60 30Z" fill="#0033CC" fill-opacity="0.2" stroke="#0033CC" stroke-width="4"/>
+  <path d="M60 45V65M50 55H70" stroke="#0033CC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 75C65.5228 75 70 70.5228 70 65C70 59.4772 65.5228 55 60 55C54.4772 55 50 59.4772 50 65C50 70.5228 54.4772 75 60 75Z" fill="#0033CC" fill-opacity="0.3"/>
+</svg>
