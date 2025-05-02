@@ -1,6 +1,5 @@
 import { useState } from "react"
 import "./LoginPage.css"
-import logo from '../../assets/Images/logo.svg'
 import '../../App'
 
 import { auth } from "../../firebaseconfig"
@@ -26,17 +25,17 @@ export default function LoginPage({ onBackToHome, onGoToInitial }: RegisterProps
 
         try {
             await signInWithEmailAndPassword(auth, email, password)
-            onGoToInitial() // Login bem-sucedido, vai para a página inicial
+            onGoToInitial()
         } catch (error: any) {
             console.error(error)
-            setErrorMessage("Email ou senha inválidos. Tente novamente.") // Você pode personalizar essa mensagem se quiser
+            setErrorMessage("Email ou senha inválidos. Tente novamente.")
         }
     }
 
     return (
         <div className="app-wrapper">
             <header className="app-header">
-                <img src={logo || "/placeholder.svg"} alt="Osman Bank Logo" className="brand-logo" />
+                <h3>Osman Bank</h3>
                 <button onClick={onBackToHome} className="exit-btn">
                     <span>&times;</span>
                 </button>

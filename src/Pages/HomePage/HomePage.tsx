@@ -1,5 +1,4 @@
 import './HomePage.css'
-import logo from "../../assets/Images/logo.svg"
 import '../../App'
 
 interface HomePageProps {
@@ -13,7 +12,7 @@ function HomePage({ onRegisterClick, onLoginClick }: HomePageProps) {
             <header className="header">
                 <div className="container header-container">
                     <div className="logo">
-                        <img src={logo || "/placeholder.svg"} alt="ASAS Logo" />
+                        <h2>Osman Bank</h2>
 
                         <nav className="main-nav">
                             <ul>

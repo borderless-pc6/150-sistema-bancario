@@ -39,7 +39,7 @@ function FormularioCadastro({ onGoNextCpf, onGoBack }: RegisterProps) {
     return (
         <div className="cadastro-container">
             <div className="cadastro-header">
-                <button onClick={onGoBack} className="botao-voltar">X</button>
+                <button onClick={onGoBack} className="botao-voltar">×</button>
                 Osman Bank
             </div>
 

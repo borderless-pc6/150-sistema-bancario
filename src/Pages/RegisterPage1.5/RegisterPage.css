@@ -15,9 +15,10 @@
     color: white;
     padding: 1rem 2rem;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
     font-weight: bold;
+    position: relative;
 }
 
 .formulario-wrapper {
@@ -87,24 +88,18 @@
 
 .botao-avancar {
     width: 100%;
-    background-color: #002cbf;
+    background-color: #000000;
     color: white;
     border: none;
     padding: 0.75rem;
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.cadastro-header {
-    background-color: #002cbf;
-    color: white;
-    padding: 1rem 2rem;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    position: relative;
+.botao-avancar:hover {
+    background-color: #1e1e1e;
 }
 
 .botao-voltar {
@@ -112,15 +107,11 @@
     right: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #f0f4ff;
-    color: #002cbf;
-    border: 1px solid #002cbf;
+    color: var(--background);
+    background-color: #000000;
+    border: none;
     padding: 0.4rem 0.8rem;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 0.9rem;
-}
-
-.botao-voltar:hover {
-    background-color: #e6e9ff;
+    font-size: 28px;
 }

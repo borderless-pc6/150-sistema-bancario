@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './Register.css';
-import logo from '../../assets/Images/logo.svg';
 import '../../App'
 
 interface RegisterProps {
@@ -24,7 +23,7 @@ function RegisterPage({ onBackToHome, onGoNext }: RegisterProps) {
     return (
         <div className="register-container">
             <header className="register-header">
-                <img src={logo || "/placeholder.svg"} alt="ASAS Logo" className="register-logo" />
+                <h3>Osman Bank</h3>
                 <button onClick={onBackToHome} type='submit' className="close-button">×</button>
             </header>
 
